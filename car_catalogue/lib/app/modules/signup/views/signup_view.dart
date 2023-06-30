@@ -37,7 +37,7 @@ class SignupView extends GetView<SignupController> {
                         hintText: "Enter Your Name", labelText: "Username"),
                     validator: (value) {
                       if (value!.isEmpty) {
-                        return "UserName cannot be empty";
+                        return "User name cannot be empty";
                       }
                       return null;
                     },
