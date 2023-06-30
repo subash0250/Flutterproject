@@ -31,7 +31,11 @@ class HomeView extends GetView<HomeController> {
                   'price': cars[index].price.toString()
                 });
               },
+
+              
               // cars[index].title.toString()','cars[index].title.toString()','cars[index].description.toString()','cars[index].imageUrl.toString()','cars[index].model.toString()'
+
+
 
               child: Card(
                 elevation: 10,
