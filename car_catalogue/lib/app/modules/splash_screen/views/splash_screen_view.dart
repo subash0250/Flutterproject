@@ -13,8 +13,10 @@ class SplashScreenView extends GetView<SplashScreenController> {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
       splash: Image.asset('assets/logo.png'),
+      
       nextScreen: SigninView(),
-      duration: 2500,
+
+      duration: 2000,
       backgroundColor: Colors.white,
       splashTransition: SplashTransition.fadeTransition,
       splashIconSize: 200,
