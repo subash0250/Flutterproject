@@ -7,6 +7,7 @@ import '../controllers/car_detail_controller.dart';
 
 class CarDetailView extends GetView<CarDetailController> {
   CarDetailView({Key? key}) : super(key: key);
+  
 
   @override
   final Map<String, dynamic> arguments = Get.arguments;
