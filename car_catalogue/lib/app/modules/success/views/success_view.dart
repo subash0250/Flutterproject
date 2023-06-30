@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../controllers/success_controller.dart';
 
 
+
 class SuccessView extends GetView<SuccessController> {
   const SuccessView({Key? key}) : super(key: key);
   @override
@@ -23,7 +24,7 @@ class SuccessView extends GetView<SuccessController> {
           ),
           Text(
             'Payment Succesful.',
-            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 23),
+            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22),
           )
         ],
       )),
